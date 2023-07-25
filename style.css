@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Luckiest+Guy&family=Special+Elite&display=swap');
+
+body {
+  height: 100vh;
+  font-family: 'Special Elite';
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+
+.container {
+  border: 2px solid grey;
+
+  width: 95%;
+  height: 100vh;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  border: 1px solid grey;
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  border-radius: 5px;
+  width: 400px;
+  margin: auto;
+  padding: 0 25px;
+  font-size: 1rem;
+  font-weight: 100;
+  box-shadow: 0 2px 4px 0;
+}
+
+.calculator input {
+  box-sizing: border-box;
+  width: 90%;
+  padding: 8px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: whitesmoke;
+}
+
+.calculator button {
+  width: fit-content;
+  padding: 8px;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: whitesmoke;
+
+}
+
+.calculator button:hover {
+  background-color: #fcb69f;
+}
+
+
+#quality {
+  width: 100%;
+  padding: 8px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+}
+
+#tip-amount {
+  visibility: hidden;
+  min-width: 250px;
+  margin: auto;
+  background-color: aqua;
+  color: white;
+  bottom: 30px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 16px;
+  position: fixed;
+}

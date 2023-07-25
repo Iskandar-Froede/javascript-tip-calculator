@@ -14,11 +14,13 @@
         <p style="border-bottom: 2px solid grey;"></p>
         <br>
         <label for="amount">Bill Amount</label>
+        <br>
         <button><i class="fa-solid fa-euro-sign"></i></button>
         <input id="amount" type="text">
         <br>
         <br>
         <label for="guest">Number of Guests</label>
+        <br>
         <button><i class="fa-solid fa-person-half-dress"></i></button>
         <input id="guest" type="text">
         <br>
@@ -27,23 +29,20 @@
         <br>
         <select id="quality">
           <option disable selected value="0">Please Choose</option>
-          <option value="1">Outstanding</option>
-          <option value="2">Very Good</option>
-          <option value="3">Good</option>
-          <option value="4">Poor</option>
-          <option value="5">Very Poor</option>
+          <option value="1">30% - Excellent</option>
+          <option value="2">20% - Very Good</option>
+          <option value="3">10% - Good</option>
+          <option value="4">5% - Poor</option>
+          <option value="5">0% - Very Poor</option>
         </select>
         <div style="text-align: center;">
-          <p style="border: 2px solid grey"></p>
+          <p style="border: 1px solid grey"></p>
           <button onclick="calculate()" style="border-radius: 3px; width: fit-content;">Calculate</button>
-
         </div>
     </div>
+    <div id="tip-amount"></div>
   </div>
-  <script>
-
-
-
+  <script src="script.js">
   </script>
 </body>
 </html>
