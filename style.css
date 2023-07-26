@@ -34,8 +34,6 @@ body {
   outline: none;
   border-radius: 5px;
   border: 1px solid lightgrey;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
   background-color: whitesmoke;
 }
 
@@ -46,8 +44,6 @@ body {
   cursor: pointer;
   border: 1px solid lightgrey;
   border-radius: 5px;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
   background-color: whitesmoke;
 
 }
@@ -86,7 +82,7 @@ body {
 
 @-webkit-keyframes fadein {
   from{bottom: 0; opacity:0;}
-  to{bottom: 0; opacity: 1;}
+  to{bottom: 30; opacity: 1;}
 }
 
 @-webkit-keyframes fadeout {
@@ -94,7 +90,7 @@ body {
   to{bottom: 0; opacity: 0;}
 }
 
-@-webkit-keyframes fadeout {
+@keyframes fadeout {
   from{bottom: 30; opacity:1;}
   to{bottom: 0; opacity: 0;}
 }
